@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="MAIN" Id="{8527cb53-8841-422c-b247-0d3122bcffe8}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	bTest				: BOOL;
+	sTest				: STRING;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF bTest THEN
+	sTest := '';
+END_IF]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
