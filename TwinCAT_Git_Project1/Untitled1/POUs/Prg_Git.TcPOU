@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="Prg_Git" Id="{0047a2f0-fe0b-47ae-b3d6-377bcce04bc2}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM Prg_Git
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
