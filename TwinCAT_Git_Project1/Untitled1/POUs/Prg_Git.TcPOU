@@ -5,18 +5,16 @@
 VAR
 	bTest				: BOOL;
 	nTest				: INT;
+	ntest2				: INT;
 	fTest				: real;
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[IF bTest THEN
 	nTest := 3;
+	ntest2 := 2;
 	fTest := 3.33333;
 END_IF]]></ST>
     </Implementation>
-    <LineIds Name="Prg_Git">
-      <LineId Id="12" Count="2" />
-      <LineId Id="2" Count="0" />
-    </LineIds>
   </POU>
 </TcPlcObject>
