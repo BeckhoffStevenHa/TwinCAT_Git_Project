@@ -5,6 +5,9 @@
 VAR
 	bTest				: BOOL;
 	sTest				: STRING;
+	
+	bInput1				: BOOL;
+	bOutput1			: BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
