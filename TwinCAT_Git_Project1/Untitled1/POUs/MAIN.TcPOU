@@ -12,7 +12,7 @@ END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[IF bTest THEN
-	sTest := '';
+	sTest := 'Pull Test';
 END_IF
 
 Prg_Git();]]></ST>
