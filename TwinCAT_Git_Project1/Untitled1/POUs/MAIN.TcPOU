@@ -10,7 +10,9 @@ END_VAR
     <Implementation>
       <ST><![CDATA[IF bTest THEN
 	sTest := '';
-END_IF]]></ST>
+END_IF
+
+Prg_Git();]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>

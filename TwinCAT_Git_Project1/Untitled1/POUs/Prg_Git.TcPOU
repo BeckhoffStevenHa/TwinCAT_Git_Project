@@ -3,10 +3,15 @@
   <POU Name="Prg_Git" Id="{0047a2f0-fe0b-47ae-b3d6-377bcce04bc2}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM Prg_Git
 VAR
+	bTest				: BOOL;
+	nTest				: INT;
+	fTest				: real;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[]]></ST>
+      <ST><![CDATA[IF bTest THEN
+	nTest := 3;
+END_IF]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
